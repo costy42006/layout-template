@@ -51,16 +51,20 @@ a:focus {
     height: 65vh;
     align-items: center;
     justify-content: center;
-    color: white;
-    text-transform: uppercase;
-    font-size: 1.5rem;
-    background: #C655BE; /* Old browsers */
-    background: -moz-linear-gradient(top, #C655BE 0%, #cf0404 100%); /* FF3.6+ */
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C655BE), color-stop(100%,#cf0404)); /* Chrome,Safari4+ */
-    background: -webkit-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Chrome10+,Safari5.1+ */
-    background: -o-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* Opera 11.10+ */
-    background: -ms-linear-gradient(top, #C655BE 0%,#cf0404 100%); /* IE10+ */
-    background: linear-gradient(top, #C655BE 0%,#cf0404 100%); /* W3C */
+}   
+
+.text-card {
+    padding: 10px;
+    width: 500px;
+}
+
+.img-card {
+    padding: 10px;
+}
+
+.img-card img {
+    width: 500px;
+    height: 400px;
 }
 
 /* Grid */
